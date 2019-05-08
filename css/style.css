@@ -1,0 +1,185 @@
+/***************************
+GENERAL
+***************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%; /*Add spacing inside the element*/
+}
+
+a {
+  text-decoration: none; /*Remove the line under the links*/
+}
+
+img {
+  max-width: 100%; /*Tells the images to fulls the width of their parent container*/
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/***************************
+HEADING
+***************************/
+
+header {
+  float: left;
+  margin: 0;
+  padding: 5px 0 0 0;
+  width: 100%; /* This elemnt should strech across the entore page */
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: .75em;
+  margin: -5px 0;
+  font-weight: normal;
+}
+
+
+
+/***************************
+NAVIGATION
+***************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  display: ;
+}
+
+nav li {
+  display: inline-block; /* to align the menu */
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px; /* Added some padding to the buttons so they are easy to click */
+}
+
+
+/***************************
+FOOTER
+***************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+/***************************
+PAGE PORFOLIO
+***************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* To remove the bullets */
+}
+
+#gallery li {
+  float: left;
+  width: 45%; /* 45 / 100 twoce = remainder of 10 */
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75;
+  color: #bdc3c7;
+}
+
+
+
+/***************************
+PAGE: ABOUT
+***************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/***************************
+COLORS
+***************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+
+/* Green header */
+header {
+  background: #6ab47b;
+  background-color: #599a68;
+}
+
+/* nav background on mobile devices */
+nav {
+  background: #599a68;
+}
+
+
+/* Logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited { /*Seudo class*/
+  color: #fff;
+}
+
+/* selected nav link */
+nav a .selected, nav a:hover { /*Seudo class to :hover*/
+  color: #32673f;
+}
