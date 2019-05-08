@@ -103,6 +103,7 @@ footer {
 }
 
 
+
 /***************************
 PAGE PORFOLIO
 ***************************/
@@ -139,6 +140,40 @@ PAGE: ABOUT
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
+}
+
+
+
+/***************************
+PAGE CONTACT
+***************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a { /* Code to fix the icons position */
+  display: block; /* Images will take up space to work with */
+  min-height: 20px; /* they have to be at least 20px size */
+  background-repeat: no-repeat; /* only display once */
+  background-size: 20px 20px; /* make them smaller to look better */
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a { /* add background images to each list item */
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a { /* add background images to each list item */
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a { /* add background images to each list item */
+  background-image: url('../img/twitter.png');
 }
 
 /***************************
