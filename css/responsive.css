@@ -27,6 +27,22 @@
     #gallery li {
       width: 28.3333%;
     }
+
+    #gallery li:nth-child(4n) { /* To fix the gallery grid */
+      clear: left;
+    }
+
+    /***************************
+    PAGE: ABOUT
+    ***************************/
+    .profile-photo {
+      float: left;
+      margin: 0 5% 80px 0; /* 5% to separate the text and 80px incase the text wraps around to the bottom of the image */
+    }
+
+
+
+
 }
 
 
