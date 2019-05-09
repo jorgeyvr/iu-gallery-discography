@@ -71,7 +71,6 @@ nav ul {
   list-style: none;
   margin: 0 10px;
   padding: 0;
-  display: ;
 }
 
 nav li {
@@ -116,7 +115,7 @@ PAGE PORFOLIO
 
 #gallery li {
   float: left;
-  width: 45%; /* 45 / 100 twoce = remainder of 10 */
+  width: 45%; /* 45 / 100 twice = remainder of 10 */
   margin: 2.5%;
   background-color: #f5f5f5;
   color: #bdc3c7;
@@ -136,7 +135,7 @@ PAGE: ABOUT
 ***************************/
 
 .profile-photo {
-  display: block;
+  display: block; /* Allow us to use auto margins */
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
@@ -190,7 +189,7 @@ body {
 /* Green header */
 header {
   background: #6ab47b;
-  background-color: #599a68;
+  border-color: #599a68; /* T give different color to the nav bar*/
 }
 
 /* nav background on mobile devices */
