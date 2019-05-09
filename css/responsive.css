@@ -1,0 +1,44 @@
+@media screen and (min-width: 480px) { /* Small devices: mobile phones */
+
+    /***************************
+    TWO COLUMN LAYOUT
+    ***************************/
+
+    #primary {
+      width: 50%;
+      float: left;
+    }
+
+    #secondary {
+      width: 40%;
+      float: right;
+    }
+
+    /***************************
+    3(we want 3 elements side by side) * 5 (items margins are 2.5 on all sides) = 15%
+    100% - 15% = 85%
+    85 / 3 = 28.333333333333
+    ***************************/
+
+    /***************************
+    PAGE: PORTFOLIO
+    ***************************/
+
+    #gallery li {
+      width: 28.3333%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 660px) { /* Media Query for tablets */
+
+}
+
+
+
+/* 1.- Fist create a 2 column layout side by side */
