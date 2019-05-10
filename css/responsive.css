@@ -40,21 +40,48 @@
       margin: 0 5% 80px 0; /* 5% to separate the text and 80px incase the text wraps around to the bottom of the image */
     }
 
-
-
-
 }
 
 
-
-
-
-
-
 @media screen and (min-width: 660px) { /* Media Query for tablets */
+
+  /***************************
+  PAGE: HEADER
+  ***************************/
+
+  nav {
+    background: none; /* Removed background so the text can sit against the header background */
+    float: right;
+    font-size: 1.5em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 60px;
+  }
 
 }
 
 
 
 /* 1.- Fist create a 2 column layout side by side */
+/* 1.- add a meta type to all html pages  */

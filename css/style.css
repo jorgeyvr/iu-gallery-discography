@@ -31,8 +31,8 @@ HEADING
 
 header {
   float: left;
-  margin: 0;
-  padding: 5px 0 0 0;
+  margin: 0 0 10px 0;
+  padding: 5px 0px 0 0;
   width: 100%; /* This elemnt should strech across the entore page */
 }
 
@@ -124,7 +124,7 @@ PAGE PORFOLIO
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75;
+  font-size: 0.75em;
   color: #bdc3c7;
 }
 
